@@ -15,6 +15,9 @@
 		835ABED71D99AC3300B116EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835ABED51D99AC3300B116EA /* LaunchScreen.storyboard */; };
 		835ABEE21D99AC3300B116EA /* TurismoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835ABEE11D99AC3300B116EA /* TurismoTests.swift */; };
 		835ABEED1D99AC3300B116EA /* TurismoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835ABEEC1D99AC3300B116EA /* TurismoUITests.swift */; };
+		835ABEFD1D99B96000B116EA /* Tercer_ControladorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835ABEFC1D99B96000B116EA /* Tercer_ControladorViewController.swift */; };
+		835ABEFF1D99BAAD00B116EA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835ABEFE1D99BAAD00B116EA /* Social.framework */; };
+		835ABF011D99C2F600B116EA /* Cuarto_ControladorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835ABF001D99C2F600B116EA /* Cuarto_ControladorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		835ABEE81D99AC3300B116EA /* TurismoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurismoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		835ABEEC1D99AC3300B116EA /* TurismoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurismoUITests.swift; sourceTree = "<group>"; };
 		835ABEEE1D99AC3300B116EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835ABEFC1D99B96000B116EA /* Tercer_ControladorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tercer_ControladorViewController.swift; sourceTree = "<group>"; };
+		835ABEFE1D99BAAD00B116EA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		835ABF001D99C2F600B116EA /* Cuarto_ControladorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuarto_ControladorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835ABEFF1D99BAAD00B116EA /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +86,7 @@
 		835ABEBD1D99AC3300B116EA = {
 			isa = PBXGroup;
 			children = (
+				835ABEFE1D99BAAD00B116EA /* Social.framework */,
 				835ABEC81D99AC3300B116EA /* Turismo */,
 				835ABEE01D99AC3300B116EA /* TurismoTests */,
 				835ABEEB1D99AC3300B116EA /* TurismoUITests */,
@@ -106,6 +114,8 @@
 				835ABED51D99AC3300B116EA /* LaunchScreen.storyboard */,
 				835ABED81D99AC3300B116EA /* Info.plist */,
 				835ABED01D99AC3300B116EA /* Turismo.xcdatamodeld */,
+				835ABEFC1D99B96000B116EA /* Tercer_ControladorViewController.swift */,
+				835ABF001D99C2F600B116EA /* Cuarto_ControladorViewController.swift */,
 			);
 			path = Turismo;
 			sourceTree = "<group>";
@@ -262,6 +272,8 @@
 				835ABED21D99AC3300B116EA /* Turismo.xcdatamodeld in Sources */,
 				835ABECC1D99AC3300B116EA /* ViewController.swift in Sources */,
 				835ABECA1D99AC3300B116EA /* AppDelegate.swift in Sources */,
+				835ABEFD1D99B96000B116EA /* Tercer_ControladorViewController.swift in Sources */,
+				835ABF011D99C2F600B116EA /* Cuarto_ControladorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
